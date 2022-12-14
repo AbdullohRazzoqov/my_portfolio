@@ -355,7 +355,7 @@ img {
       .about__right {
         flex-basis: 100%;
         margin-bottom: 4rem; } }
-    .about__right img {
+    .about__right img {padding-top: 100px;
       border-radius: 1.5rem; }
   .about__bio {
     line-height: 1.8;
@@ -363,7 +363,8 @@ img {
   .about__skillsTitle {
     color: var(--color-main);
     font-size: 2.4rem;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+  }
     @media only screen and (max-width: 900px) {
       .about__skillsTitle {
         font-size: 2rem; } }
